@@ -64,10 +64,7 @@ $(window).load(function() {
 <!--slider/ nivo-->
 </div>
 <!--slider wrapper-->
-
-	<div class="content">
-		
-
+	      
 <div id="user_nav">
   <% if user_signed_in? %>
     Signed in as <%= current_user.email %>. Not you?
@@ -79,10 +76,11 @@ $(window).load(function() {
  
 <% flash.each do |name, msg| %>
   <%= content_tag :div, msg, :id => "flash_#{name}" %>
-<% end %>
+<% end %>           
 
-		
-	<div id="bringit">
+ 
+	<div class="sidebar">
+	<div id="bringit"> 
 		<a href="http://agplonski.bringfresh.hop.clickbank.net"><img src="http://www.bringthefresh.com/images/160x600freshBTF.jpg" /></a>
 	</div>
 <!--bring it-->
@@ -93,9 +91,20 @@ $(window).load(function() {
 	<div id="iframe">
 		<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpulledoverme&amp;width=160&amp;height=300&amp;colorscheme=dark&amp;show_faces=true&amp;border_color=white&amp;stream=true&amp;header=true&amp;appId=463524130336528" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:160px; height:300px;" allowTransparency="true"></iframe>
 	</div>
-<!--iframe-->	
+<!--iframe-->  
+	</div>
+<!--sidebar-->    
+       
+<div class="content"> 
+
+   	<div id="photos">
+			<a href="/"><%= image_tag('../images/photos.png')%>
+		</a></div>
+
 	</div>
 <!--content-->
+
+
 	</div>
 <!--container-->
 
