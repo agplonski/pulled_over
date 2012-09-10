@@ -45,4 +45,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 
-gem "bcrypt-ruby", :require => "bcrypt"
+gem "bcrypt-ruby"
