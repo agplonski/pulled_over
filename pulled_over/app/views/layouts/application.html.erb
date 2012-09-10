@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pulled Over &middot;</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag ('nivoslider') %>
+  <%= csrf_meta_tags %>
+<meta name="description" content="Pulled over is a site that you can sharestories, videos, and pictures about being pulled over.You can also like and share all your content with your friends and maybe family!" />
+<meta name="robots" content="all">
+<meta name="keywords" content="Pulled, over, stories, sharing, videos, police, pictures, funny, bored, entertaining, sheriff, highway, patrol, swat, community, arrested, under, arrest, cuffed, silly, pissed, mad, jail, DWI, DUI, celebrity, cherries, fuck, what to do, entertainment" />
+<meta content= 'Pulled Over' property='og:site_name'/> 
+<meta content= 'Pulled over is the best way to share yours stories with others about being pulled over by the police! Post Stories, Pictures, and Videos along with so much more!' name='description' />
+<meta charset="utf-8">
+
+</head>
+<body>
+	<div class="top">
+	<div class="container">
+	<div id="header"> 
+
+	
+	<div class="logofloat">
+			<a href="/"><%= image_tag('../images/redone.png')%>
+		</a></div>
+		
+<!--end: logo-->
+		<div id="ad180x150x1">
+		<p> ad space Here!!</p>
+		</div>
+		
+		<div id="ad180x150x2">
+		<p> ad space Here!!</p>
+		</div>
+		
+		<div id="ad180x150x3">
+		<p> ad space Here!!</p>
+		</div>
+		
+		
+	
+		</div>
+<!--end: header-->	
+	
+	
+	<div id="navigation">
+		<div id="menu" class="default">
+			<ul>
+        <li><a href="/"><span>Home</span></a></li>  
+        <li><a href="posts"><span>Post</span></a></li>  
+        <li><a href="#"><span>Whats Hot</span></a></li>  
+        <li><a href="/users/sign_up"><span>Sign Up</span></a></li>   
+		<li><a href="/users/sign_in"><span>Login</span></a></li>
+	</ul>
+   </div>
+<!-- close menu -->  
+   </div>
+<!-- close navigation -->
+<div class="clearfooter"></div>
+   </div>
+<!--close container-->
+	</div>
+<!--close top-->
+	<div id="footer">
+		<div class="contacts">
+			<ul class="bottom">
+		<li><a href="#"><span>Contact</span></a></li>
+		<li><a href="#"><span>Donate</span></a></li>
+		<li><a href="#"><span>About</span></a></li>
+		<li><a href="#"><span>Terms</span></a></li>
+		<li><a href="#"><span>Help</span></a></li>
+		<li><a href="#"><span>Privacy</span></a></li>
+		<li><a href="subscribe"><span>Subscribe</span></a></li>
+			</ul>
+		  
+		  	<div class="facebook" alt="facebook">
+   		<a href="http://www.facebook.com/PulledOverMe"><%= image_tag('../images/facebook.png')%><span></span></a>
+	</div>
+<!--close facebook-->
+	<div class="twitter" alt="Twitter">
+		<a href="http://www.twitter.com"><%= image_tag('../images/tweet.png') %><span></span></a>
+	</div>
+<!--close twitter-->
+	<div class="tumblr" alt="Tumblr">
+		<a href="http://www.tumblr.com"><%= image_tag('../images/tumblr.png') %><span></span></a>
+	</div>
+<!--close tumblr-->
+	<div class="rss" alt="RSS">
+		<a href="/"><%= image_tag('../images/rss.png') %><span></span></a>
+	</div>
+<!--close RSS-->	
+		</div>
+<!--close contacts-->
+	</div>
+<!--close footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%= yield %>
+
+</body>
+</html>
