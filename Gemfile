@@ -11,7 +11,8 @@ gem 'simple_form'
 
 gem 'jekyll'
 
-gem 'devise', '1.4.7'
+gem 'devise', '1.4.7'     
+
 
 
 
