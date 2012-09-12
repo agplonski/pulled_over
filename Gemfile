@@ -46,4 +46,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 
-gem "bcrypt-ruby"
+gem'bcrypt-ruby', '~> 3.0.0'
