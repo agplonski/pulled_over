@@ -2,4 +2,4 @@
 
 
 # Initialize the rails application
-Blog::Application.initialize!
+#Blog::Application.initialize!
