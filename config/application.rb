@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'    
-require 'devise', '1.4.7'
+
 config.autoload_paths += Dir["#{config.root}/lib/**/"]
 
 if defined?(Bundler)
