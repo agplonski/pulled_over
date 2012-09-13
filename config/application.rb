@@ -1,5 +1,5 @@
 require File.expand_path('../boot', __FILE__)
-
+require 'devise'
 require 'rails/all'    
 
 config.autoload_paths += Dir["#{config.root}/lib/**/"]
@@ -60,6 +60,7 @@ module Blog
     config.assets.enabled = true
 
     # Version of your assets, change this if you want to expire all your assets
-    config.assets.version = '1.0'
+    config.assets.version = '1.0'    
+    
   end
 end
