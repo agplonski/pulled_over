@@ -1,5 +1,9 @@
 require File.expand_path('../boot', __FILE__)
+                require 'sinatra'
 
+get '/' do
+  "Hello World!"
+end
 require 'rails/all'    
 
 config.autoload_paths += Dir["#{config.root}/lib/**/"]
