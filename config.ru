@@ -1,2 +1,2 @@
 require ::File.expand_path('../config/environment', __FILE__)
-run Rails::Application
+run pulled_over::Application
