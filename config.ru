@@ -1,2 +1,2 @@
 require './hello'
-run Sinatra::secure-ocean-9010
+run Sinatra::Application

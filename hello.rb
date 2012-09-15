@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/' do
+get 'app/pulledover' do
 end
