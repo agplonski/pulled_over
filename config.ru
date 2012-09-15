@@ -1,2 +1,2 @@
-require ::File.expand_path('../config/environment', __FILE__)
-run blog::Application
+require './pulled_over'
+run pulled_over
