@@ -1,2 +1,2 @@
 require './hello'
-run Sinatra::pulled_over
+run Sinatra::secure-ocean-9010
