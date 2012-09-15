@@ -1,9 +1,3 @@
-# Load the rails application
-require File.expand_path('../application', __FILE__)
-
- #Initialize the rails application
-Blog::Application.initialize!
-
 require File.expand_path('../boot', __FILE__)
  
 require 'rails/all'     
