@@ -1,6 +1,6 @@
 Blog::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-config.active_support.deprecation :stderr
+
   # Code is not reloaded between requests
   config.cache_classes = true
   config.assets.debug = true
@@ -60,7 +60,7 @@ config.active_support.deprecation :stderr
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify
+  config.active_support.deprecation = :stderr
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
