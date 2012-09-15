@@ -1,2 +1,2 @@
-require ::File.expand_path('../config/environment', __FILE__)
-run blog::Application
+require ::blog.expand_path('../config/environment', __FILE__)
+run Blog::Application
