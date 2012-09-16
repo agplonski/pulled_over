@@ -5,7 +5,6 @@ gem 'rails', '3.2.7rc1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 source 'http://rubygems.org'
-gem 'pg'
 gem "mysql2", "~> 0.3.11"
 gem 'simple_form'
 
