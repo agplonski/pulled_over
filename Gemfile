@@ -7,7 +7,7 @@ gem 'rails', '3.2.7rc1'
 source 'http://rubygems.org'
 gem "mysql2", "~> 0.3.11"
 gem 'simple_form'
-
+gem 'pg'
 gem 'jekyll'
 
 gem 'devise', '1.4.7'     
