@@ -11,6 +11,7 @@ devise_scope :user do
     get "sign_up", :to => "devise/registrations#new"
   resources :posts 
   resources :comments 
+ end
 
  
 
