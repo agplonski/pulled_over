@@ -20418,3 +20418,54 @@ ActionController::RoutingError (No route matches [GET] "/dashboard"):
 
 
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.7.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:55:21 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 214ms (Views: 212.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:55:27 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (328.1ms)
+Completed 200 OK in 427ms (Views: 426.1ms | ActiveRecord: 0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:55:59 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (370.6ms)
+Completed 200 OK in 444ms (Views: 387.0ms | ActiveRecord: 56.5ms)
+
+
+Started GET "/assets/nivoslider.js?body=1" for 127.0.0.1 at 2012-09-19 05:55:59 -0500
+Served asset /nivoslider.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/nivo-slider.css?body=1" for 127.0.0.1 at 2012-09-19 05:55:59 -0500
+Served asset /nivo-slider.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-19 05:55:59 -0500
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/nivoslider.js?body=1" for 127.0.0.1 at 2012-09-19 05:56:00 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:56:01 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.4ms)
