@@ -1,7 +1,6 @@
 class PostsController < ApplicationController
   #GET /posts
   # GET /posts.json     
-  has_many :comments
   def index
     @posts = Post.all
 
