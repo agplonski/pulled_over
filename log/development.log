@@ -20348,3 +20348,73 @@ Processing by HomeController#index as HTML
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
   Rendered home/index.html.erb within layouts/application (8.3ms)
 Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:42:21 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (416.4ms)
+Completed 200 OK in 514ms (Views: 431.6ms | ActiveRecord: 81.2ms)
+
+
+Started GET "/assets/nivoslider.js?body=1" for 127.0.0.1 at 2012-09-19 05:42:21 -0500
+Served asset /nivoslider.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/nivo-slider.css?body=1" for 127.0.0.1 at 2012-09-19 05:42:22 -0500
+Served asset /nivo-slider.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-19 05:42:22 -0500
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/nivoslider.js?body=1" for 127.0.0.1 at 2012-09-19 05:42:22 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-19 05:42:23 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (4.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 33ms (Views: 28.1ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2012-09-19 05:42:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/dashboard"):
+  actionpack (3.2.7.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.7.rc1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.7.rc1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.7.rc1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.7.rc1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.7.rc1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.7.rc1) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.7.rc1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.7.rc1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.7.rc1) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.7.rc1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.7.rc1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.7.rc1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.7.rc1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.7.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
