@@ -46,17 +46,17 @@ body {
 	text-align: left;
 }
 
-ul {
+.mainnavi ul {
 	padding: 0;
 }
 
-ul li {
+.mainnavi ul li {
 	list-style-type: none;
 	display: inline;
 	margin-right: 15px;
 }
 
-ul li a {
+.mainnavi ul li a {
 	color: #fff;
 	text-decoration: none;
 	padding: 3px 7px;
@@ -69,7 +69,7 @@ ul li a {
 	-webkit-transition-duration: .5s, .5s;
 }
 
-ul li a:hover {
+.mainnavi ul li a:hover {
 	background: #004080;
 	color: #ffffff;
 		-webkit-transition-property: color, background;
@@ -219,8 +219,8 @@ ul li a:hover {
 }   
 iframe {
 	 margin-bottom: 100px; 
-}       
-#photos {
-   position: relativ;
 }
+   
+
+
 
