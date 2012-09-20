@@ -29,7 +29,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(40%, #0f67a1), color-stop(100%, #555555));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(40%, black), color-stop(100%, #555555));
 	background: -moz-linear-gradient(top, #555555, #0f67a1, #555555);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -219,7 +219,8 @@ body {
 }   
 iframe {
 	 margin-bottom: 100px; 
-}
+}    
+
    
 
 
