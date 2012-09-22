@@ -25684,3 +25684,9 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 21:31:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
