@@ -25593,3 +25593,90 @@ Started GET "/" for 127.0.0.1 at 2012-09-21 20:43:54 -0500
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (8.2ms)
 Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:46:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:46:21 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nivo-slider.css" for 127.0.0.1 at 2012-09-21 20:46:21 -0500
+Served asset /nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css" for 127.0.0.1 at 2012-09-21 20:46:21 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:46:21 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:46:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:48:59 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (62.3ms)
+Completed 200 OK in 184ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:49:00 -0500
+Served asset /nivoslider.js - 304 Not Modified (52ms)
+
+
+Started GET "/assets/nivo-slider.css" for 127.0.0.1 at 2012-09-21 20:49:00 -0500
+Served asset /nivo-slider.css - 304 Not Modified (81ms)
+
+
+Started GET "/assets/home.css" for 127.0.0.1 at 2012-09-21 20:49:00 -0500
+Served asset /home.css - 200 OK (20ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:49:00 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:49:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:49:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nivo-slider.css" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
+Served asset /nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nivoslider.js" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
+Served asset /nivoslider.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
