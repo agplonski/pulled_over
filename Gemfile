@@ -11,7 +11,7 @@ gem 'pg'
 gem 'jekyll'
 
 gem 'devise', '1.4.7'     
-
+gem 'heroku'
 gem 'thin'
 
 # Gems used only for assets and not required
