@@ -25680,3 +25680,7 @@ Started GET "/" for 127.0.0.1 at 2012-09-21 20:49:38 -0500
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
